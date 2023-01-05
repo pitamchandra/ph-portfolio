@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* common style start */
+.text_primary {
+    color: #FD6E0A;
+}
+
+.btn_primary {
+    padding: 18px 35px;
+    font-weight: 700;
+    font-size: 20px;
+    background: #FD6E0A;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+
+}
+
+main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+section {
+    margin-top: 130px;
+}
+
+.section_title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    text-align: center;
+}
+
+.section_description {
+    width: 900px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin: 30px auto;
+    text-align: center;
+}
+
+
+/* common style end */
+/* header and navbar style start */
+.header {
+    color: #FFF8F3;
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 200px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+nav ul li {
+    margin-left: 50px;
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+.nav_title {
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+/* header and navbar style end */
+
+/* banner style start */
+.banner {
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_content {
+    margin-left: 50px;
+}
+
+.banner_sub_title {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+}
+
+.banner_title {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+}
+
+.banner_description {
+    font-weight: 400;
+    font-size: 18px;
+    color: #757575;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 580px;
+}
+
+/* banner style end */
+
+/* About section style start */
+.about {
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+}
+
+
+
+.about_container {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.info_title {
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+}
+
+.info_description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+
+/* About section style end */
+/* what i do section style start */
+.skill_container {
+    display: flex;
+    gap: 24px;
+    justify-content: space-between;
+}
+
+.skill {
+    background: #FFFFFF;
+    padding: 30px;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill_title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.skill_description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #757575;
+    margin: 0 3px;
+}
+
+/* what i do section style end */
