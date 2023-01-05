@@ -181,3 +181,37 @@ nav ul li a {
 }
 
 /* what i do section style end */
+/* resume section style start */
+.resume_container{
+    display: flex;
+    gap: 71px;
+}
+.resume_content .heading{
+    font-weight: 700;
+    font-size: 30px;
+    color: #474747;
+    text-transform: capitalize;
+    margin-top: 113px;
+    margin-bottom: 30px;
+}
+.resume_content .title{
+    font-weight: 700;
+font-size: 25px;
+color: #474747;
+} 
+.resume_content .sub_title{
+    font-weight: 600;
+font-size: 20px;
+color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
+} 
+.resume_content .description{
+    color: #757575;
+    line-height: 28px;
+    padding-right: 10px;
+} 
+.resume_content hr{
+    margin: 30px 0;
+}
+/* resume section style end */
